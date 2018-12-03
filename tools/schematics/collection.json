@@ -1,0 +1,13 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "name": "polaris-schematics",
+  "version": "0.0.1",
+  "extends": ["@nrwl/schematics"],
+  "schematics": {
+    "feature": {
+      "factory": "../../dist/out-tsc/tools/schematics/feature",
+      "schema": "./feature/schema.json",
+      "description": "Create a custom Angular component."
+    }
+  }
+}

@@ -16,6 +16,12 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@zaljin/dnd/encounters": [
+        "libs/dnd/encounters/src/index.ts"
+      ],
+      "@zaljin/sample": [
+        "libs/sample/src/index.ts"
+      ]
     }
   },
   "exclude": [

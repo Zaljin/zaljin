@@ -7,5 +7,18 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "dnd-encounters-manager": {
+      "tags": []
+    },
+    "dnd-encounters-manager-e2e": {
+      "tags": []
+    },
+    "dnd-encounters": {
+      "tags": []
+    },
+    "sample": {
+      "tags": []
+    }
+  }
 }

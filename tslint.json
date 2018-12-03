@@ -1,9 +1,11 @@
 {
   "rulesDirectory": [
     "node_modules/codelyzer",
-    "node_modules/@nrwl/schematics/src/tslint"
+    "node_modules/@nrwl/schematics/src/tslint",
+    "tools/lint"
   ],
   "rules": {
+    "no-imports": true,
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
